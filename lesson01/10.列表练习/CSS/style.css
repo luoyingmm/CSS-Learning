@@ -1,0 +1,22 @@
+.title1{
+    color: antiquewhite;
+    text-indent: 2em;
+}
+
+#nav{
+    width: 300px;
+}
+
+ul li{
+    list-style: none;
+    background: rebeccapurple;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: orange;
+    font-size: 30px;
+}
