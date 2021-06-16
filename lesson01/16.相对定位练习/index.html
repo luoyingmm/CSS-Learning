@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+        #father{
+          border: 2px solid red;
+          padding: 10px;
+          width: 300px;
+          height: 300px;
+        }
+
+        #father div{
+          width: 100px;
+          height: 100px;
+          background: #f702ff;
+          text-align: center;
+          line-height: 100px;
+          display: inline-block;
+
+        }
+        #father div a{
+          text-decoration: none;
+          color: #ffffff;
+        }
+        #father div:hover{
+          background: blue;
+        }
+        #father div:nth-of-type(1){
+
+        } #father div:nth-of-type(2){
+
+          position: relative;
+          left: 100px;
+        } #father div:nth-of-type(3){
+          position: relative;
+          top: 100px;
+        } #father div:nth-of-type(4){
+            position: relative;
+          top: 100px;
+          left: 100px;
+        } #father div:nth-of-type(5){
+            position: relative;
+          left: 100px;
+          bottom: 100px;
+        }
+  </style>
+</head>
+<body>
+      <div id="father">
+        <div>
+          <a href="#">链接1</a>
+        </div>  <div>
+          <a href="#">链接2</a>
+        </div>  <div>
+          <a href="#">链接3</a>
+        </div>  <div>
+          <a href="#">链接4</a>
+        </div>  <div>
+          <a href="#">链接5</a>
+        </div>
+
+      </div>
+</body>
+</html>
